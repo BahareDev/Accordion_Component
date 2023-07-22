@@ -1,7 +1,7 @@
-function App() {
-  const [count, setCount] = useState(0);
+import Accordion from "./components/Accordion";
 
-  return <h1>hiii</h1>;
+function App() {
+  return <Accordion />;
 }
 
 export default App;
